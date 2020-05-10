@@ -1,9 +1,19 @@
 title:              Skyarkitektur.no
 email:              me@robstr.dev
 description:        Norsk blogg om skyen
-author:             Roberth Strand
 baseurl:            "/skyarkitektur.no"
 url:                "https://skyarkitektur.github.io"
+
+# Authors
+authors:
+  RoberthStrand:
+    name: Roberth Strand
+    display_name: Roberth
+    gravatar: d7b91766dd6cfae59ca659853f0d3918
+    email: me@robstr.dev
+    web: https://robstr.dev
+    twitter: RoberthTweets
+    github: RoberthStrand
 
 # Social Profiles
 twitter_username:   RoberthTweets
