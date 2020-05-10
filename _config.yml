@@ -7,13 +7,14 @@ url:                "https://skyarkitektur.github.io"
 # Authors
 authors:
   Roberth Strand:
-    name: Roberth Strand
-    display_name: Roberth
-    gravatar: d7b91766dd6cfae59ca659853f0d3918
+    display_name: Roberth Strand
+    about: Cloud consultant working primarily with Microsoft Azure, automation and infrastructure.
     email: me@robstr.dev
     web: https://robstr.dev
     twitter: RoberthTweets
     github: RoberthStrand
+    facebook:
+    gravatar: https://secure.gravatar.com/avatar/8df9a5ac37b58842cfdc2b5dbc9092fc?size=600px
 
 # Social Profiles
 twitter_username:   RoberthTweets
