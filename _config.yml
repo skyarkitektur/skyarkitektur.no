@@ -27,7 +27,6 @@ linkedin_username:  RoberthStrand
 google_analytics:   UA-166158735-1 # out your google-analytics code
 
 # Build settings
-#markdown:           kramdown
 paginate:           5
 paginate_path:      "/posts/page:num/"
 plugins:
