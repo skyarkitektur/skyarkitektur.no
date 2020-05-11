@@ -1,8 +1,8 @@
 title:              Skyarkitektur.no
 email:              me@robstr.dev
 description:        Norsk blogg om skyen
-baseurl:            "/skyarkitektur.no"
-url:                "https://skyarkitektur.github.io"
+baseurl:            "/"
+url:                "https://skyarkitektur.no"
 permalink: pretty # pretty permalink :O
 
 # Authors
@@ -24,7 +24,7 @@ facebook_username:
 linkedin_username:  RoberthStrand
 
 # Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+google_analytics:   UA-166158735-1 # out your google-analytics code
 
 # Build settings
 #markdown:           kramdown
