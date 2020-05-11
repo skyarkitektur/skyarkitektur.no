@@ -3,6 +3,7 @@ email:              me@robstr.dev
 description:        Norsk blogg om skyen
 baseurl:            "/skyarkitektur.no"
 url:                "https://skyarkitektur.github.io"
+permalink: pretty # pretty permalink :O
 
 # Authors
 authors:
