@@ -1,8 +1,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
+{% assign author = site.data.people[page.author] %}
 <div class="w3-card-2">
     <div id="author-content">
-    <h3>Author</h3>
     <hr>
         <div itemprop="author" id="name-author"><strong>{{ author.display_name }}</strong></div>
 
