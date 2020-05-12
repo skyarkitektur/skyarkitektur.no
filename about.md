@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Om skyarkitektur.no
+title: Om bloggen
 #description: This is what I do.
 background: '/img/bg-about.jpg'
 ---
