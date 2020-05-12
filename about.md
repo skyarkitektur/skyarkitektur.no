@@ -3,6 +3,7 @@ layout: page
 title: Om bloggen
 #description: This is what I do.
 background: '/img/bg-about.jpg'
+permalink: /om-bloggen/
 ---
 
 Skyarkitektur.no, Norges første (og eneste?) åpne blogg om cloud computing, infrastruktur og tjenester. Dette blir å være en side som er 100% åpen for alt og alle som har noe de ønsker å dele.
