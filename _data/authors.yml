@@ -1,11 +1,11 @@
 Roberth Strand:
-  display_name: Roberth Strand
-  position: Senior Consultant
-  company: Crayon AS
-  about: Cloud consultant working primarily with Microsoft Azure, automation and infrastructure.
-  email: me@robstr.dev
-  web: https://robstr.dev
+  navn: Roberth Strand
+  posisjon: Senior Consultant
+  arbeidsgiver: Crayon AS
+  arbeidsoppgaver: Jobber med Azure, automasjon og infrastruktur. 
+  epost: me@robstr.dev
+  nettside: https://robstr.dev
   twitter: RoberthTweets
   github: RoberthStrand
   facebook:
-  gravatar: https://secure.gravatar.com/avatar/8df9a5ac37b58842cfdc2b5dbc9092fc?size=150px
+  bilde: https://secure.gravatar.com/avatar/8df9a5ac37b58842cfdc2b5dbc9092fc?size=150px
