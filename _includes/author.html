@@ -7,7 +7,10 @@
     <hr>
         <div itemprop="author" class="name-author"><strong>{{ author.navn }}</strong></div>
         <img itemprop="image" class="image-author" src="{{ author.bilde }}">
-        <div class="about-author">{{ author.arbeidsoppgaver }}</div>
+        <div class="about-author">
+            <p style="font-style: italic;">{{ author.posisjon }},<a href="{{ author.arbeidsgivers-nettside }} target="_blank">{{ author.arbeidsgiver}}</a></p>
+            {{ author.arbeidsoppgaver }}
+            </div>
         <div class="social-author">
             {% if author.facebook %}
             <a href="https://facebook.com/{{ author.facebook }}" ><i class="fa fa-facebook-square fa"></i></a>
