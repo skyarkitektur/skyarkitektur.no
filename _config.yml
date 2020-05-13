@@ -1,3 +1,23 @@
+# Legg til informasjon om deg her
+# og husk god kodestruktur
+Authors:
+  Roberth Strand:
+    navn: Roberth Strand
+    posisjon: Senior Consultant
+    arbeidsgiver: Crayon AS
+    arbeidsoppgaver: Jobber med Azure, automasjon og infrastruktur. 
+    epost: me@robstr.dev
+    nettside: https://robstr.dev
+    twitter: RoberthTweets
+    github: RoberthStrand
+    facebook:
+    bilde: https://secure.gravatar.com/avatar/8df9a5ac37b58842cfdc2b5dbc9092fc?size=150px
+
+
+####################
+#  Her under skal  #
+# du ikke redigere #
+####################
 title:              Skyarkitektur.no
 email:              post@skyarkitektur.no
 description:        Norsk blogg om skyen
