@@ -2,6 +2,7 @@ div.author-content {
     width:90%;
     margin:0 auto;
     padding-bottom: 35px;
+    background-color: #fff;
 }
 
 img.image-author {
@@ -12,6 +13,9 @@ img.image-author {
 }
 
 .about-author {
+    float:right;    
+}
+.name-author {
     float:right;    
 }
 
