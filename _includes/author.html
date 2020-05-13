@@ -18,11 +18,11 @@
             {% endif %}
 
             {% if author.github %}
-            <a href="{{ author.github }}" ><i class="fa fa-github-square fa"></i></a>
+            <a href="https://github.com/{{ author.github }}" ><i class="fa fa-github-square fa"></i></a>
             {% endif %}
 
             {% if author.epost %}
-            <a href="{{ author.email }}" ><i class="fa fa-envelope-square fa"></i></a>
+            <a href="mailto:{{ author.email }}" ><i class="fa fa-envelope-square fa"></i></a>
             {% endif %}
         </div>
     </div>
