@@ -7,19 +7,19 @@
         <img itemprop="image" id="image-author" src="{{ author.bilde }}">
         <div id="about-author">{{ author.arbeidsoppgaver }}</div>
         <div id="social-author">
-            {% if author.facebook != "" %}
+            {% if author.facebook %}
             <a href="https://facebook.com/{{ author.facebook }}" ><i class="fa fa-facebook-square fa"></i></a>
             {% endif %}
 
-            {% if author.twitter != "" %}
+            {% if author.twitter %}
             <a href="https://www.twitter.com/{{ author.twitter }}" ><i class="fa fa-twitter-square fa"></i></a>
             {% endif %}
 
-            {% if author.github != null %}
+            {% if author.github %}
             <a href="{{ author.github }}" ><i class="fa fa-github-square fa"></i></a>
             {% endif %}
 
-            {% if author.epost != "" %}
+            {% if author.epost %}
             <a href="{{ author.email }}" ><i class="fa fa-envelope-square fa"></i></a>
             {% endif %}
         </div>
