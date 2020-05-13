@@ -18,8 +18,8 @@ layout: default
             {% endif %}
             <span class="meta">Skrevet av
               <a href="#">{% if page.author %}
-                {% assign author = site.data.authors[page.author] %}
-                {{ author.navn }},
+                {% assign xauthor = site.data.authors[page.author] %}
+                {{ xauthor.navn }},
                 {% endif %}</a>
               {{ page.date | date: '%d.%m.%Y' }} &middot; {% include read_time.html
               content=page.content %}
