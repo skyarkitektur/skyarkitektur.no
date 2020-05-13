@@ -3,7 +3,7 @@ email:              post@skyarkitektur.no
 description:        Norsk blogg om skyen
 baseurl:            "/"
 url:                "https://skyarkitektur.no"
-permalink:          /:category/:title
+permalink:          /:slug
 timezone:           Europe/Oslo
 
 # Social Profiles
