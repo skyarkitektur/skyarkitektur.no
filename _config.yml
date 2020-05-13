@@ -2,7 +2,7 @@
 # og husk god kodestruktur
 authors:
   Roberth Strand:
-    navn: Roberth Strand
+    display_name: Roberth Strand
     posisjon: Senior Consultant
     arbeidsgiver: Crayon AS
     arbeidsoppgaver: Jobber med Azure, automasjon og infrastruktur. 
