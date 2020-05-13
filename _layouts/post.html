@@ -16,10 +16,10 @@ layout: default
             {% if page.subtitle %}
             <h2 class="subheading">{{ page.subtitle }}</h2>
             {% endif %}
-            <span class="meta">Skrevet av
+            <span class="meta">Skrevet 
               <a href="#">{% if page.author %}
                 {% assign xauthor = site.data.authors[page.author] %}
-                {{ xauthor.navn }},
+                av {{ xauthor.navn }},
                 {% endif %}</a>
               {{ page.date | date: '%d.%m.%Y' }} &middot; {% include read_time.html
               content=page.content %}
