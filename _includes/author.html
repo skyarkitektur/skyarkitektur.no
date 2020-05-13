@@ -9,20 +9,14 @@
         <div id="social-author">
             {% if author.facebook %}
             <a href="https://facebook.com/{{ author.facebook }}" ><i class="fa fa-facebook-square fa"></i></a>
-            {% else %}
-            <p>{{ author.facebook }}</p>
             {% endif %}
 
             {% if author.twitter %}
             <a href="https://www.twitter.com/{{ author.twitter }}" ><i class="fa fa-twitter-square fa"></i></a>
-            {% else %}
-            <p>{{ author.twitter }}</p>
             {% endif %}
 
             {% if author.github %}
             <a href="{{ author.github }}" ><i class="fa fa-github-square fa"></i></a>
-            {% else %}
-            <p>{{ author.github }}</p>
             {% endif %}
 
             {% if author.epost %}
