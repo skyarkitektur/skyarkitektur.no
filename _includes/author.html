@@ -10,12 +10,15 @@
             {% if author.facebook != "" %}
             <a href="https://facebook.com/{{ author.facebook }}" ><i class="fa fa-facebook-square fa"></i></a>
             {% endif %}
+
             {% if author.twitter != "" %}
             <a href="https://www.twitter.com/{{ author.twitter }}" ><i class="fa fa-twitter-square fa"></i></a>
             {% endif %}
-            {% if author.github != "" %}
+
+            {% if author.github != null %}
             <a href="{{ author.github }}" ><i class="fa fa-github-square fa"></i></a>
             {% endif %}
+
             {% if author.epost != "" %}
             <a href="{{ author.email }}" ><i class="fa fa-envelope-square fa"></i></a>
             {% endif %}
