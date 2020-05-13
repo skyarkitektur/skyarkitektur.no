@@ -17,7 +17,10 @@ layout: default
             <h2 class="subheading">{{ page.subtitle }}</h2>
             {% endif %}
             <span class="meta">Skrevet av
-              <a href="#">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
+              <a href="#">{% if page.author %}
+                {% assign author = site.data.authors[page.author] %}
+                {{ author.navn }}
+                {% else %}{{ site.author }}{% endif %}</a>
               , {{ page.date | date: '%d.%m.%Y' }} &middot; {% include read_time.html
               content=page.content %}
             </span>
