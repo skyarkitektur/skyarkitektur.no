@@ -1,7 +1,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
   <div class="container">
-    {% if page.title != "Skyarkitektur.no" %}
+    {% if page.url != "/" %}
     <a class="navbar-brand" href="{{"/" | relative_url }}">
       {{ site.title | escape }}</a>
       {% endif %}
