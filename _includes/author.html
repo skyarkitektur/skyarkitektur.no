@@ -11,11 +11,11 @@
         <div class="w3-container">
         <img itemprop="image" class="image-author" src="{{ author.bilde }}">
         <div class="about-author">
-            {{ author.posisjon }} &middot; <a href="{{ author.arbeidsgivers-nettside }}" class="author-companylink" target="_blank">{{ author.arbeidsgiver}}</a>
+            <i><{{ author.posisjon }} &middot; <a href="{{ author.arbeidsgivers-nettside }}" class="author-companylink" target="_blank">{{ author.arbeidsgiver}}</a></i>
             <p>{{ author.kort-fortalt }}</p>
 
             {% if author.nettside %}
-            <p class="website-author"><i class="fas fa-info-circle"></i> Besøk gjerne forfatters <a href="{{ author.nettside }}" target="_blank">nettside</a> også.</p>
+            <p class="website-author" style="font-style: italic;"><i class="fas fa-info-circle"></i> Besøk gjerne forfatters <a href="{{ author.nettside }}" target="_blank">nettside</a> også.</p>
             {% endif %}
         </div>
         <div class="social-author">
