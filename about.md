@@ -2,7 +2,7 @@
 layout: page
 title: Om bloggen
 #description: This is what I do.
-background: '/img/bg-about.jpg'
+#background: '/img/bg-about.jpg'
 permalink: /om-bloggen/
 ---
 
