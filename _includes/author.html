@@ -15,16 +15,20 @@
             {{ author.kort-fortalt }}
         </div>
         <div class="social-author">
+            {% if author.nettside %}
+            <a href="{{ author.nettside }}" target="_blank"><i class="fas fa-bookmark"></i> Nettside</a> &middot;
+            {% endif %}
+            
             {% if author.facebook %}
-            <a href="https://facebook.com/{{ author.facebook }}" ><i class="fa fa-facebook-square fa"></i></a>
+            <a href="https://facebook.com/{{ author.facebook }}" ><i class="fa fa-facebook-square fa"></i></a> &middot;
             {% endif %}
 
             {% if author.twitter %}
-            <a href="https://www.twitter.com/{{ author.twitter }}" ><i class="fa fa-twitter-square fa"></i></a>
+            <a href="https://www.twitter.com/{{ author.twitter }}" ><i class="fa fa-twitter-square fa"></i></a> &middot;
             {% endif %}
 
             {% if author.github %}
-            <a href="https://github.com/{{ author.github }}" ><i class="fa fa-github-square fa"></i></a>
+            <a href="https://github.com/{{ author.github }}" ><i class="fa fa-github-square fa"></i></a> &middot;
             {% endif %}
 
             {% if author.epost %}
