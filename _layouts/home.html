@@ -41,14 +41,11 @@ layout: default
             <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
             {% endif %}
           </a>
-          <p class="post-meta">Skrevet av
+          <p class="post-meta">
             {% if post.author %}
-              {% assign post.author = site.data.authors[post.author] %}
-              {{ post.author.navn }}
-            {% else %}
-            {{ site.author }}
+            {% assign author = site.data.authors[post.author] %}
+            Skrevet av {{ author.navn }},
             {% endif %}
-            ,
             {{ post.date | date: '%d.%m.%Y' }} &middot; {% include read_time.html content=post.content %}
           </p>
         </article>
