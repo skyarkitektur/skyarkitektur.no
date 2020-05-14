@@ -43,7 +43,7 @@ layout: default
           </a>
           <p class="post-meta">Skrevet av
             {% if post.author %}
-              {% assign author = site.data.authors[page.author] %}
+              {% assign post.author = site.data.authors[post.author] %}
               {{ author.navn }}
             {% else %}
             {{ site.author }}
