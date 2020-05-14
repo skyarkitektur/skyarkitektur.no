@@ -5,7 +5,10 @@
 <div class="w3-card-2">
     <div class="author-content">
     <hr>
+        <header class="w3-container w3-light-grey">
         <div itemprop="author" class="name-author"><strong>{{ author.navn }}</strong></div>
+        </header>
+        <div class="w3-container">
         <img itemprop="image" class="image-author" src="{{ author.bilde }}">
         <div class="about-author">
             <p style="font-style: italic;">{{ author.posisjon }},<a href="{{ author.arbeidsgivers-nettside }}" target="_blank">{{ author.arbeidsgiver}}</a></p>
@@ -27,6 +30,7 @@
             {% if author.epost %}
             <a href="mailto:{{ author.epost }}" ><i class="fa fa-envelope-square fa"></i></a>
             {% endif %}
+        </div>
         </div>
     </div>
 </div>
