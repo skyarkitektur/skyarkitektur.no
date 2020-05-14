@@ -13,22 +13,22 @@
         <div class="about-author">
             <p style="font-style: italic;">{{ author.posisjon }} &middot; <a href="{{ author.arbeidsgivers-nettside }}" class="author-companylink" target="_blank">{{ author.arbeidsgiver}}</a></p>
             {{ author.kort-fortalt }}
+
+            {% if author.nettside %}
+            Sjekk gjerne ut min <a href="{{ author.nettside }}" target="_blank">nettside</a>
+            {% endif %}
         </div>
         <div class="social-author">
-            {% if author.nettside %}
-            <a href="{{ author.nettside }}" target="_blank"><i class="fas fa-bookmark"></i> Nettside</a> &middot;
-            {% endif %}
-            
             {% if author.facebook %}
-            <a href="https://facebook.com/{{ author.facebook }}" ><i class="fa fa-facebook-square fa"></i></a> &middot;
+            <a href="https://facebook.com/{{ author.facebook }}" ><i class="fa fa-facebook-square fa"></i></a>
             {% endif %}
 
             {% if author.twitter %}
-            <a href="https://www.twitter.com/{{ author.twitter }}" ><i class="fa fa-twitter-square fa"></i></a> &middot;
+            <a href="https://www.twitter.com/{{ author.twitter }}" ><i class="fa fa-twitter-square fa"></i></a>
             {% endif %}
 
             {% if author.github %}
-            <a href="https://github.com/{{ author.github }}" ><i class="fa fa-github-square fa"></i></a> &middot;
+            <a href="https://github.com/{{ author.github }}" ><i class="fa fa-github-square fa"></i></a>
             {% endif %}
 
             {% if author.epost %}
