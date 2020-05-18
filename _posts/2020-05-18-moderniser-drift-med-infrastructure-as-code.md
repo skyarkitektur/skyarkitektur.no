@@ -2,7 +2,7 @@
 title:      "Moderniser drift med Infrastructure-as-Code"
 slug:       moderniser-drift-med-infrastructure-as-code
 author:     roberth_strand
-subtitle:   "Lang artikkel med spennende innhold"
+#subtitle:   ""
 date:       2020-05-18 18:15:13
 background: '/img/posts/2020-05-18-moderniser-drift-med-infrastructure-as-code.jpg'
 category:   Infrastruktur
