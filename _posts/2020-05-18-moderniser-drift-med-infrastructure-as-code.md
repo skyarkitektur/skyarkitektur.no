@@ -8,6 +8,7 @@ background: '/img/posts/2020-05-18-moderniser-drift-med-infrastructure-as-code.j
 category:   Infrastruktur
 tags:       Automasjon, DevOps, Infrastructure-as-Code
 layout:     post
+comment:    true
 ---
 
 Etter at DevOps tankegangen begynte å spre seg for fullt her i Norge, så har flere store organisasjoner gått over til det som kalles for Infrastructure-as-Code (*IaC*) og av gode grunner. DevOps er kanskje enklere å forstå for de som kommer fra *Dev* delen av utrykket, men hører at flere som kommer fra den gamle SysAdmin-skaren får litt problemer når velkjente grafiske knapper skal byttes ut med kode. Er det skremmende vanskelig å begynne med IaC, og hvordan kommer man i gang med det?
