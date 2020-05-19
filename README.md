@@ -6,6 +6,6 @@ Siden tar utgangspunkt i Github Pages, og underliggende Jekyll. Alle som vil kan
 
 Åpen kildekode står sentralt i skyen, og dermed burde en blogg på temaet også være det. Kall det gjerne ett sosialt eksperiment, personlig så syntes jeg det bare var tøft …
 
-&lowast; *Super enkelforskning, kan ikke verifisere at dette er sant*
+&lowast; *Superenkel-forskning, kan ikke verifisere at dette er sant*
 
 *TODO: Guide til hvordan man legger seg inn som author, skriver blogginnlegg og submitter en PR.*
