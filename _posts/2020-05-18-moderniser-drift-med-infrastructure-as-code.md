@@ -1,6 +1,6 @@
 ---
-title:      "Moderniser drift med Infrastructure-as-Code"
-slug:       moderniser-drift-med-infrastructure-as-code
+title:      "Moderniser med Infrastructure-as-Code"
+slug:       moderniser-med-infrastructure-as-code
 author:     roberth_strand
 #subtitle:   ""
 date:       2020-05-18 18:15:13
