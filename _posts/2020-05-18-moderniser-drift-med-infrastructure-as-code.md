@@ -13,8 +13,6 @@ comment:    true
 
 Etter at DevOps tankegangen begynte å spre seg for fullt her i Norge, så har flere store organisasjoner gått over til det som kalles for Infrastructure-as-Code (*IaC*) og av gode grunner. DevOps er kanskje enklere å forstå for de som kommer fra *Dev* delen av utrykket, men hører at flere som kommer fra den gamle SysAdmin-skaren får litt problemer når velkjente grafiske knapper skal byttes ut med kode. Er det skremmende vanskelig å begynne med IaC, og hvordan kommer man i gang med det?
 
-# Fordelene med Infrastructure-as-Code
-
 ## Dokumentasjon
 
 Når man jobber med kode i lag med noen så lagrer man vanligvis koden på en sentral plass som er styrt med en eller annen form for versjonskontroll. Det mest vanlige i dag er Git, som ble laget av Linus Torvalds for å kunne jobbe i lag med andre på Linux Kernel.
